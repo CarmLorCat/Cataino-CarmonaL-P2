@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "zBwXL9rgfIXC+pJMa20QKz3HhdSSR+IhEqY8dhkW+iehxUmr1VxZBcqzkv7mPdqW0YNRVo09xLf5MEzDbVdj3Q==",
-  "success": true,
+  "dgSpecHash": "VlNTuANsnaZXQlj+9Tk9iYL6FsEOX39Hw6Jo5syFeyQ+425wNY8si50jPnQISmwc4C1gkkfdYjgcdZDUQXqbcA==",
+  "success": false,
   "projectFilePath": "C:\\Users\\carmo\\Itdev-162-P2\\Cataino-CarmonaL-P2\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\carmo\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0\\microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
@@ -10,7 +10,21 @@
     "C:\\Users\\carmo\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\carmo\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\carmo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
-    "C:\\Users\\carmo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+    "C:\\Users\\carmo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
+    "C:\\Users\\carmo\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\carmo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\carmo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\carmo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Persistence is not compatible with net7.0 (.NETCoreApp,Version=v7.0). Project Persistence supports: net8.0 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "Persistence",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }
