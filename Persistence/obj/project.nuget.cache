@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "zB0NA3DH92J2JIgJg3bRb0Ii44d8OLDcY9GPp4ikIyY4I6q/gahCPwyg4yBvjoQHW6KI8F/j9IwkrT6duMw1/g==",
+  "dgSpecHash": "q7agJJGh90ih5xI+tMi9Rwnxj0jBlLpn5fZUbV5186DjeWe2CtCuggjFrpqU0f4AbtR30wHg89gHeZPiRoA+1A==",
   "success": true,
   "projectFilePath": "C:\\Users\\carmo\\Itdev-162-P2\\Cataino-CarmonaL-P2\\Persistence\\Persistence.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\carmo\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\carmo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\carmo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512"
+  ],
   "logs": []
 }
