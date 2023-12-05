@@ -34,4 +34,29 @@ public class WeatherForecastController : ControllerBase
         })
         .ToArray();
     }
+
+  [HttpPost]
+    public ActionResult<WeatherForecast> Create()
+    {
+        Console.WriteLine($"Database path: {_context.DbPath}");
+        Console.WriteLine("Insert a new WeatherForecast");
+
+        var forecast = new WeatherForecast()
+        {
+            Date = new DateOnly(),
+            TemperatureC = 75,
+            Summary = "Warm"
+        };
+
+        _context.weatherForecasts.Add(forecast);
+        var success = _context.SaveChanges() > 0;
+
+        if (success)
+        {
+            return forecast;
+        }
+        throw new Exception("Error creating WeatherForescat");
+
+
+    }   
 }
